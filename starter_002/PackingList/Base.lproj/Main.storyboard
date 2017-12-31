@@ -52,7 +52,7 @@
                                     <constraint firstAttribute="height" constant="80" id="I7w-UL-DBr"/>
                                     <constraint firstItem="zhL-uA-MVV" firstAttribute="width" secondItem="qNh-oY-vXm" secondAttribute="height" multiplier="23:16" id="OdC-hz-VDc"/>
                                     <constraint firstItem="zhL-uA-MVV" firstAttribute="centerX" secondItem="qNh-oY-vXm" secondAttribute="centerX" id="wqD-M7-XYB"/>
-                                    <constraint firstItem="zhL-uA-MVV" firstAttribute="centerY" secondItem="qNh-oY-vXm" secondAttribute="centerY" id="xKY-qF-wGE"/>
+                                    <constraint firstItem="zhL-uA-MVV" firstAttribute="centerY" secondItem="qNh-oY-vXm" secondAttribute="centerY" identifier="TitleCenterY" id="xKY-qF-wGE"/>
                                     <constraint firstItem="11a-jA-Xic" firstAttribute="centerY" secondItem="zhL-uA-MVV" secondAttribute="centerY" id="xVW-fn-0dT"/>
                                 </constraints>
                             </view>
