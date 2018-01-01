@@ -47,9 +47,9 @@ class ViewController: UIViewController {
   @IBAction func actionToggleMenu(_ sender: AnyObject) {
     isMenuOpen = !isMenuOpen
     
-    titleLabel.superview?.constraints.forEach{ constraint in
-        print("-> \(constraint.description)")
-    }
+//    titleLabel.superview?.constraints.forEach{ constraint in
+//        print("-> \(constraint.description)")
+//    }
     
     menuHeightConstraint.constant = isMenuOpen ? 200.0  : 80.0
     titleLabel.text = isMenuOpen ? "Select Item" : "Packing List"
